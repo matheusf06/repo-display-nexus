@@ -3,11 +3,14 @@ import { Menu, Phone } from "lucide-react";
 import { Button } from "./ui/button";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export function NavBar() {
   const isMobile = useIsMobile();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const whatsappNumber = "+1234567890"; // Replace with your actual WhatsApp number
+  const whatsappNumber = "+1234567890";
+  const { t } = useTranslation();
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
@@ -18,7 +21,8 @@ export function NavBar() {
           </h1>
           
           {isMobile ? (
-            <div className="flex gap-2">
+            <div className="flex gap-2 items-center">
+              <LanguageSwitcher />
               <Button
                 variant="ghost"
                 size="icon"
@@ -38,12 +42,13 @@ export function NavBar() {
             </div>
           ) : (
             <div className="flex items-center gap-6">
-              <a href="#home" className="hover:text-primary transition-colors">Home</a>
-              <a href="#about" className="hover:text-primary transition-colors">About</a>
-              <a href="#experience" className="hover:text-primary transition-colors">Experience</a>
-              <a href="#projects" className="hover:text-primary transition-colors">Projects</a>
-              <a href="#services" className="hover:text-primary transition-colors">Services</a>
-              <a href="#skills" className="hover:text-primary transition-colors">Skills</a>
+              <a href="#home" className="hover:text-primary transition-colors">{t('nav.home')}</a>
+              <a href="#about" className="hover:text-primary transition-colors">{t('nav.about')}</a>
+              <a href="#experience" className="hover:text-primary transition-colors">{t('nav.experience')}</a>
+              <a href="#projects" className="hover:text-primary transition-colors">{t('nav.projects')}</a>
+              <a href="#services" className="hover:text-primary transition-colors">{t('nav.services')}</a>
+              <a href="#skills" className="hover:text-primary transition-colors">{t('nav.skills')}</a>
+              <LanguageSwitcher />
               <a
                 href={`https://wa.me/${whatsappNumber}`}
                 target="_blank"
@@ -51,7 +56,7 @@ export function NavBar() {
               >
                 <Button>
                   <Phone className="mr-2 h-4 w-4" />
-                  Contact me
+                  {t('nav.contact')}
                 </Button>
               </a>
             </div>
@@ -61,12 +66,12 @@ export function NavBar() {
         {isMobile && isMenuOpen && (
           <div className="mt-4 py-4 border-t border-border">
             <div className="flex flex-col gap-4">
-              <a href="#home" className="hover:text-primary transition-colors">Home</a>
-              <a href="#about" className="hover:text-primary transition-colors">About</a>
-              <a href="#experience" className="hover:text-primary transition-colors">Experience</a>
-              <a href="#projects" className="hover:text-primary transition-colors">Projects</a>
-              <a href="#services" className="hover:text-primary transition-colors">Services</a>
-              <a href="#skills" className="hover:text-primary transition-colors">Skills</a>
+              <a href="#home" className="hover:text-primary transition-colors">{t('nav.home')}</a>
+              <a href="#about" className="hover:text-primary transition-colors">{t('nav.about')}</a>
+              <a href="#experience" className="hover:text-primary transition-colors">{t('nav.experience')}</a>
+              <a href="#projects" className="hover:text-primary transition-colors">{t('nav.projects')}</a>
+              <a href="#services" className="hover:text-primary transition-colors">{t('nav.services')}</a>
+              <a href="#skills" className="hover:text-primary transition-colors">{t('nav.skills')}</a>
             </div>
           </div>
         )}

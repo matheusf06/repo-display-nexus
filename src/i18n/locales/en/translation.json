@@ -1,0 +1,52 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "services": "Services",
+    "skills": "Skills",
+    "contact": "Contact me"
+  },
+  "hero": {
+    "title": "Frontend Developer & UX Designer",
+    "description": "I create beautiful, functional, and user-friendly web applications. Let's work together to bring your ideas to life!",
+    "cta": "Let's Talk on WhatsApp"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Frontend Developer & UX Designer",
+    "description": "I'm a passionate frontend developer and UX designer with a keen eye for creating beautiful, functional, and user-friendly web applications. With years of experience in the field, I combine technical expertise with design thinking to deliver exceptional digital experiences."
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "projects": {
+    "updated": "Updated",
+    "title": "Projects"
+  },
+  "services": {
+    "title": "Services",
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Building responsive and performant web applications using modern technologies."
+    },
+    "ux": {
+      "title": "UX Design",
+      "description": "Creating intuitive and engaging user experiences that solve real problems."
+    },
+    "ui": {
+      "title": "UI Design",
+      "description": "Designing beautiful and functional interfaces that users love to interact with."
+    }
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "footer": {
+    "contact": "Contact",
+    "follow": "Follow Me",
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,52 @@
+
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "services": "Serviços",
+    "skills": "Habilidades",
+    "contact": "Contate-me"
+  },
+  "hero": {
+    "title": "Desenvolvedor Frontend & Designer UX",
+    "description": "Eu crio aplicações web bonitas, funcionais e amigáveis. Vamos trabalhar juntos para dar vida às suas ideias!",
+    "cta": "Vamos Conversar no WhatsApp"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "Desenvolvedor Frontend & Designer UX",
+    "description": "Sou um desenvolvedor frontend e designer UX apaixonado, com um olhar aguçado para criar aplicações web bonitas, funcionais e amigáveis. Com anos de experiência na área, combino expertise técnica com design thinking para entregar experiências digitais excepcionais."
+  },
+  "experience": {
+    "title": "Experiência"
+  },
+  "projects": {
+    "updated": "Atualizado",
+    "title": "Projetos"
+  },
+  "services": {
+    "title": "Serviços",
+    "frontend": {
+      "title": "Desenvolvimento Frontend",
+      "description": "Construindo aplicações web responsivas e performáticas usando tecnologias modernas."
+    },
+    "ux": {
+      "title": "Design UX",
+      "description": "Criando experiências de usuário intuitivas e envolventes que resolvem problemas reais."
+    },
+    "ui": {
+      "title": "Design UI",
+      "description": "Projetando interfaces bonitas e funcionais que os usuários adoram interagir."
+    }
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "footer": {
+    "contact": "Contato",
+    "follow": "Siga-me",
+    "rights": "Todos os direitos reservados."
+  }
+}

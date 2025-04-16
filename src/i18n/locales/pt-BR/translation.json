@@ -12,7 +12,7 @@
   "hero": {
     "title": "Desenvolvedor Fullstack",
     "description": "Com formação em Ciência da Computação, experiência prática com HTML, CSS, JavaScript e WordPress, e uma bagagem multidisciplinar em projetos educacionais e tecnológicos, estou pronto para ajudar você a dar vida ao seu projeto digital..",
-    "cta": "Vamos Conversar no WhatsApp"
+    "cta": "Me chame no WhatsApp"
   },
   "about": {
     "title": "Sobre Mim",
@@ -20,26 +20,74 @@
     "description": "Sou um desenvolvedor fullstack com background em Ciência da Computação e experiência prática na criação de sites e aplicações web. Já atuei com WordPress, HTML, CSS e JavaScript, além de liderar projetos educacionais voltados à inovação digital. Tenho paixão por unir tecnologia, design e educação para criar soluções que realmente façam a diferença na vida das pessoas."
   },  
   "experience": {
-    "title": "Experiência"
+    "title": "Experiência",
+    "items": {
+      "santaMaria": {
+        "company": "EM Santa Maria",
+        "role": "Auxiliar Pedagógico da Sala de Inovação",
+        "period": "2023 – 2024",
+        "description": "Apoiou professores na implementação de atividades digitais para mais de 200 alunos, utilizando ferramentas de tecnologia educacional. Organizou evidências e relatórios de projetos para auditorias institucionais, garantindo conformidade com as diretrizes pedagógicas."
+      },
+      "jaAmapa": {
+        "company": "Junior Achievement Amapá",
+        "role": "Gestor de Projetos",
+        "period": "2022 – 2023",
+        "description": "Gerenciou programas educacionais em 12 escolas públicas, impactando mais de 500 alunos. Facilitou parcerias com mais de 30 voluntários e instituições, aumentando o engajamento em 40%. Coordenou treinamentos em ferramentas digitais como Google Classroom e Canva."
+      },
+      "firerocket": {
+        "company": "Firerocket",
+        "role": "Desenvolvedor Web WordPress",
+        "period": "2020",
+        "description": "Desenvolveu temas personalizados com HTML/CSS, reduzindo o tempo de carregamento em 25%. Implementou plugins de segurança e desempenho para garantir a estabilidade das plataformas."
+      }
+    }
+    
   },
   "projects": {
     "updated": "Atualizado",
-    "title": "Projetos"
+    "title": "Projetos",
+    "reactNews": {
+      "name": "React News",
+      "description": "PWA que consome uma API pública para mostrar as principais notícias do dia. Projeto moderno com ReactJS e integração com serviços externos."
+    },
+    "springBoot": {
+      "name": "Spring boot API",
+      "description": "API simples de produtos feita com Java e Spring Boot. Demonstra habilidades backend e estruturação de serviços RESTful."
+    },
+    "nodeApi": {
+      "name": "NodeJs API",
+      "description": "API em Node.js com CRUD completo de pacientes. Projeto fullstack que mostra integração backend com Express e rotas organizadas."
+    }
   },
   "services": {
-    "title": "Serviços",
-    "frontend": {
-      "title": "Desenvolvimento Frontend",
-      "description": "Construindo aplicações web responsivas e performáticas usando tecnologias modernas."
-    },
-    "ux": {
-      "title": "Design UX",
-      "description": "Criando experiências de usuário intuitivas e envolventes que resolvem problemas reais."
-    },
-    "ui": {
-      "title": "Design UI",
-      "description": "Projetando interfaces bonitas e funcionais que os usuários adoram interagir."
+    "title": "Serviços","services": {
+      "title": "Serviços",
+      "frontend": {
+        "title": "Desenvolvimento Frontend Moderno",
+        "description": "Criação de interfaces responsivas, acessíveis e performáticas utilizando React, JavaScript, HTML e CSS."
+      },
+      "apiIntegration": {
+        "title": "Integração com APIs e Backend",
+        "description": "Consumo e integração com APIs REST usando Axios, Fetch ou bibliotecas modernas. Comunicação eficiente com backends em Node.js e Java (Spring Boot)."
+      },
+      "fullstack": {
+        "title": "Desenvolvimento Fullstack Web",
+        "description": "Construção de aplicações completas com frontend em React e backend em Node.js ou Spring Boot, seguindo boas práticas e estrutura de código limpa."
+      },
+      "components": {
+        "title": "Componentização e Reutilização de Código",
+        "description": "Criação de componentes reutilizáveis e escaláveis com React e Styled Components, mantendo organização e produtividade em projetos grandes."
+      },
+      "performance": {
+        "title": "Otimização de Performance e SEO",
+        "description": "Aprimoramento de desempenho com lazy loading, compressão de assets e estruturação para SEO técnico básico em aplicações SPA e PWA."
+      },
+      "git": {
+        "title": "Versionamento e Colaboração com Git",
+        "description": "Gerenciamento de código-fonte com Git, GitHub e GitFlow, facilitando colaboração em equipe, controle de versões e integração contínua."
+      }
     }
+    
   },
   "skills": {
     "title": "Habilidades"

@@ -19,6 +19,7 @@ export function LanguageSwitcher() {
       <SelectContent>
         <SelectItem value="en">English</SelectItem>
         <SelectItem value="pt-BR">Português</SelectItem>
+        <SelectItem value="es">Espanhol</SelectItem>
       </SelectContent>
     </Select>
   );

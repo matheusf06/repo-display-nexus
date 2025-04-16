@@ -1,6 +1,6 @@
 
 import { Button } from "./ui/button";
-import { Github, Instagram, Linkedin } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export function AboutSection() {

@@ -19,25 +19,69 @@
     "description": "I'm a fullstack developer with a background in Computer Science and practical experience building websites and web applications. I've worked with WordPress, HTML, CSS, and JavaScript, and I've also led educational projects focused on digital innovation. I’m passionate about combining technology, design, and education to create solutions that truly make a difference in people’s lives."
   },
   "experience": {
-    "title": "Experience"
+    "title": "Experience",
+  "items": {
+    "santaMaria": {
+      "company": "EM Santa Maria",
+      "role": "Innovation Lab Teaching Assistant",
+      "period": "2023 – 2024",
+      "description": "Supported teachers in implementing digital activities for 200+ students using educational technology tools. Organized project evidence and reports for institutional audits, ensuring compliance with pedagogical guidelines."
+    },
+    "jaAmapa": {
+      "company": "Junior Achievement Amapá",
+      "role": "Project Manager",
+      "period": "2022 – 2023",
+      "description": "Managed educational programs in 12 public schools, impacting 500+ students. Facilitated partnerships with 30+ volunteers and institutions, increasing engagement by 40%. Conducted trainings on tools like Google Classroom and Canva."
+    },
+    "firerocket": {
+      "company": "Firerocket",
+      "role": "WordPress Web Developer",
+      "period": "2020",
+      "description": "Developed custom themes with HTML/CSS, reducing load time by 25%. Implemented security and performance plugins to ensure platform stability."
+    }
+  }
   },
   "projects": {
     "updated": "Updated",
-    "title": "Projects"
+    "title": "Projects",
+    "reactNews": {
+      "name": "React News",
+      "description": "PWA that consumes a public API to show top daily news. A modern project using ReactJS and integration with external services."
+    },
+    "springBoot": {
+      "name": "Spring boot API",
+      "description": "Simple product API built with Java and Spring Boot. Demonstrates backend skills and RESTful service structure."
+    },
+    "nodeApi": {
+      "name": "NodeJs API",
+      "description": "Node.js API with full CRUD for patients. A fullstack project showing backend integration with Express and organized routes."
+    }
   },
   "services": {
     "title": "Services",
     "frontend": {
-      "title": "Frontend Development",
-      "description": "Building responsive and performant web applications using modern technologies."
+      "title": "Modern Frontend Development",
+      "description": "Building responsive, accessible, and performant interfaces using React, JavaScript, HTML, and CSS."
     },
-    "ux": {
-      "title": "UX Design",
-      "description": "Creating intuitive and engaging user experiences that solve real problems."
+    "apiIntegration": {
+      "title": "API and Backend Integration",
+      "description": "Consuming and integrating REST APIs using Axios, Fetch, or modern libraries. Efficient communication with backends in Node.js and Java (Spring Boot)."
     },
-    "ui": {
-      "title": "UI Design",
-      "description": "Designing beautiful and functional interfaces that users love to interact with."
+    "fullstack": {
+      "title": "Fullstack Web Development",
+      "description": "Building complete web applications with React frontend and Node.js or Spring Boot backend, following best practices and clean code structure."
+    },
+    "components": {
+      "title": "Componentization and Code Reuse",
+      "description": "Creating reusable and scalable components with React and Styled Components, maintaining organization and productivity in large projects."
+    },
+    "performance": {
+      "title": "Performance and SEO Optimization",
+      "description": "Improving performance with lazy loading, asset compression, and basic technical SEO structuring for SPA and PWA applications."
+    },
+    "git": {
+      "title": "Version Control and Git Collaboration",
+      "description": "Managing source code with Git, GitHub, and GitFlow, facilitating teamwork, version control, and continuous integration."
     }
   },
   "skills": {

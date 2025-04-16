@@ -1,39 +1,43 @@
 
 import { Card, CardContent } from "./ui/card";
-import { Code2, Monitor, Plug, Layers, Zap } from "lucide-react";
+import { Code2, Monitor, Plug, Layers, Zap, GitBranch } from "lucide-react";
 import { useTranslation } from "react-i18next";
-
-const services = [
-  {
-    title: "Desenvolvimento Frontend Moderno",
-    description: "Criação de interfaces responsivas, acessíveis e performáticas utilizando React, JavaScript, HTML e CSS.",
-    icon: Monitor
-  },
-  {
-    title: "Integração com APIs e Backend",
-    description: "Consumo e integração com APIs REST usando Axios, Fetch ou bibliotecas modernas. Comunicação eficiente com backends em Node.js e Java (Spring Boot).",
-    icon: Plug
-  },
-  {
-    title: "Desenvolvimento Fullstack Web",
-    description: "Construção de aplicações completas com frontend em React e backend em Node.js ou Spring Boot, seguindo boas práticas e estrutura de código limpa.",
-    icon: Code2
-  },
-  {
-    title: "Componentização e Reutilização de Código",
-    description: "Criação de componentes reutilizáveis e escaláveis com React e Styled Components, mantendo organização e produtividade em projetos grandes.",
-    icon: Layers
-  },
-  {
-    title: "Otimização de Performance e SEO",
-    description: "Aprimoramento de desempenho com lazy loading, compressão de assets e estruturação para SEO técnico básico em aplicações SPA e PWA.",
-    icon: Zap
-  }
-];
-
 
 export function ServicesSection() {
   const { t } = useTranslation();
+
+  const services = [
+    {
+      title: t("services.frontend.title"),
+      description: t("services.frontend.description"),
+      icon: Monitor
+    },
+    {
+      title: t("services.apiIntegration.title"),
+      description: t("services.apiIntegration.description"),
+      icon: Plug
+    },
+    {
+      title: t("services.fullstack.title"),
+      description: t("services.fullstack.description"),
+      icon: Code2
+    },
+    {
+      title: t("services.components.title"),
+      description: t("services.components.description"),
+      icon: Layers
+    },
+    {
+      title: t("services.performance.title"),
+      description: t("services.performance.description"),
+      icon: Zap
+    },
+    {
+      title: t("services.git.title"),
+      description: t("services.git.description"),
+      icon: GitBranch
+    }
+  ];
   
   return (
     <section id="services" className="py-20 px-4">

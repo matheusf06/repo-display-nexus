@@ -1,5 +1,5 @@
 
-import { Github, Instagram, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "./ui/button";
 import { useTranslation } from "react-i18next";
 

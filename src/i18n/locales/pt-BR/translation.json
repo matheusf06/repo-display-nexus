@@ -10,15 +10,15 @@
     "contact": "Contate-me"
   },
   "hero": {
-    "title": "Desenvolvedor Frontend & Designer UX",
-    "description": "Eu crio aplicações web bonitas, funcionais e amigáveis. Vamos trabalhar juntos para dar vida às suas ideias!",
+    "title": "Desenvolvedor Fullstack",
+    "description": "Com formação em Ciência da Computação, experiência prática com HTML, CSS, JavaScript e WordPress, e uma bagagem multidisciplinar em projetos educacionais e tecnológicos, estou pronto para ajudar você a dar vida ao seu projeto digital..",
     "cta": "Vamos Conversar no WhatsApp"
   },
   "about": {
     "title": "Sobre Mim",
-    "subtitle": "Desenvolvedor Frontend & Designer UX",
-    "description": "Sou um desenvolvedor frontend e designer UX apaixonado, com um olhar aguçado para criar aplicações web bonitas, funcionais e amigáveis. Com anos de experiência na área, combino expertise técnica com design thinking para entregar experiências digitais excepcionais."
-  },
+    "subtitle": "Desenvolvedor Fullstack & Educador em Tecnologia",
+    "description": "Sou um desenvolvedor fullstack com background em Ciência da Computação e experiência prática na criação de sites e aplicações web. Já atuei com WordPress, HTML, CSS e JavaScript, além de liderar projetos educacionais voltados à inovação digital. Tenho paixão por unir tecnologia, design e educação para criar soluções que realmente façam a diferença na vida das pessoas."
+  },  
   "experience": {
     "title": "Experiência"
   },

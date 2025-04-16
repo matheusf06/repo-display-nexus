@@ -1,4 +1,3 @@
-
 {
   "nav": {
     "home": "Home",
@@ -7,17 +6,17 @@
     "projects": "Projects",
     "services": "Services",
     "skills": "Skills",
-    "contact": "Contact me"
+    "contact": "Contact Me"
   },
   "hero": {
-    "title": "Frontend Developer & UX Designer",
-    "description": "I create beautiful, functional, and user-friendly web applications. Let's work together to bring your ideas to life!",
-    "cta": "Let's Talk on WhatsApp"
+    "title": "Fullstack Developer",
+    "description": "With a degree in Computer Science, hands-on experience with HTML, CSS, JavaScript, and WordPress, and a multidisciplinary background in educational and tech projects, I'm ready to help bring your digital project to life.",
+    "cta": "Let's Chat on WhatsApp"
   },
   "about": {
     "title": "About Me",
-    "subtitle": "Frontend Developer & UX Designer",
-    "description": "I'm a passionate frontend developer and UX designer with a keen eye for creating beautiful, functional, and user-friendly web applications. With years of experience in the field, I combine technical expertise with design thinking to deliver exceptional digital experiences."
+    "subtitle": "Fullstack Developer & Tech Educator",
+    "description": "I'm a fullstack developer with a background in Computer Science and practical experience building websites and web applications. I've worked with WordPress, HTML, CSS, and JavaScript, and I've also led educational projects focused on digital innovation. I’m passionate about combining technology, design, and education to create solutions that truly make a difference in people’s lives."
   },
   "experience": {
     "title": "Experience"

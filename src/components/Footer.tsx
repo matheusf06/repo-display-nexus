@@ -13,39 +13,30 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-semibold mb-4">{t('footer.contact')}</h3>
             <div className="space-y-2">
-              <a href="mailto:your@email.com" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:matheuso06@hotmai.com" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />
-                your@email.com
-              </a>
-              <a href="tel:+1234567890" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
-                <Phone className="h-4 w-4" />
-                +1 234 567 890
+                matheuso06@hotmai.com
               </a>
             </div>
           </div>
           <div className="md:text-right">
             <h3 className="text-xl font-semibold mb-4">{t('footer.follow')}</h3>
             <div className="flex gap-4 md:justify-end">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/matheusf06" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon">
                   <Github className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="www.linkedin.com/in/matheusfeijao" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon">
                   <Linkedin className="h-5 w-5" />
-                </Button>
-              </a>
-              <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" size="icon">
-                  <Instagram className="h-5 w-5" />
                 </Button>
               </a>
             </div>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Your Name. {t('footer.rights')}
+          © {new Date().getFullYear()} Matheus Oliveira. {t('footer.rights')}
         </div>
       </div>
     </footer>

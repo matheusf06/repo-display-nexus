@@ -21,7 +21,7 @@ export function AboutSection() {
         
         <div className="flex justify-center gap-4">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/matheusf06"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,21 +30,12 @@ export function AboutSection() {
             </Button>
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="www.linkedin.com/in/matheusfeijao"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Button variant="outline" size="icon">
               <Linkedin className="h-5 w-5" />
-            </Button>
-          </a>
-          <a
-            href="https://instagram.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button variant="outline" size="icon">
-              <Instagram className="h-5 w-5" />
             </Button>
           </a>
         </div>

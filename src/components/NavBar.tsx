@@ -9,7 +9,7 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 export function NavBar() {
   const isMobile = useIsMobile();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const whatsappNumber = "+1234567890";
+  const whatsappNumber = "+5585996126302";
   const { t } = useTranslation();
 
   return (

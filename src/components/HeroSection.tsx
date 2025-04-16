@@ -4,7 +4,7 @@ import { Phone } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export function HeroSection() {
-  const whatsappNumber = "+1234567890";
+  const whatsappNumber = "+5585996126302";
   const { t } = useTranslation();
 
   return (

@@ -10,10 +10,12 @@ interface ProjectCardProps {
   stars: number;
   forks: number;
   updatedAt: string;
+  link: string;
 }
 
-export function ProjectCard({ name, description, language, stars, forks, updatedAt }: ProjectCardProps) {
+export function ProjectCard({ name, description, language, stars, forks, updatedAt, link }: ProjectCardProps) {
   return (
+    <a href={link} target="_blank" rel="noopener noreferrer">
     <Card className="overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:shadow-lg bg-card/50 backdrop-blur-sm">
       <CardHeader className="pb-3">
         <h3 className="text-xl font-semibold text-primary">{name}</h3>
@@ -41,5 +43,6 @@ export function ProjectCard({ name, description, language, stars, forks, updated
         </div>
       </CardContent>
     </Card>
+    </a>
   );
 }

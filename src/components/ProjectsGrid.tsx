@@ -12,7 +12,8 @@ export function ProjectsGrid() {
       language: "JavaScript",
       stars: 1,
       forks: 0,
-      updatedAt: "2023-01-06T00:00:00Z"
+      updatedAt: "2023-01-06T00:00:00Z",
+      link: "https://github.com/matheusf06/React-News"
     },
     {
       name: t("projects.springBoot.name"),
@@ -20,7 +21,8 @@ export function ProjectsGrid() {
       language: "Java",
       stars: 1,
       forks: 0,
-      updatedAt: "2024-08-26T00:00:00Z"
+      updatedAt: "2024-08-26T00:00:00Z",
+      link: "https://github.com/matheusf06/spring-boot-api-produtos"
     },
     {
       name: t("projects.nodeApi.name"),
@@ -28,7 +30,8 @@ export function ProjectsGrid() {
       language: "JavaScript",
       stars: 0,
       forks: 0,
-      updatedAt: "2021-09-29T00:00:00Z"
+      updatedAt: "2021-09-29T00:00:00Z",
+      link: "https://github.com/matheusf06/node-js-api-CRUD-pacientes"
     }
   ];
   
